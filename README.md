@@ -1,1 +1,1 @@
-# http-www.panorama-holdings.com.cn
+# www.panorama-holdings.com.cn
