@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>磐远中国</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+
+	<style>
+		.popbg{
+			position: fixed;
+			top:0;
+			left:0;
+			background: rgba(0,0,0,0.65);
+			width:100%;
+			height:100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			visibility: hidden;
+		}
+		.bespeak-pop{
+			padding:20px;
+			background: #fff;
+			width:890px;
+			height: 610px;
+		}
+		.bespeak-close{
+			display: flex;
+			justify-content: flex-end;
+			align-items: center;
+			height:35px;
+		}
+		.bespeak-close span{
+			display: flex;
+			background: url(images/club-pop_03.png) no-repeat right center;
+			padding-right:50px;
+			cursor: pointer;
+			height:35px;
+			color:#888;
+			align-items: center;
+		}
+		.bespeak-div{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			margin-top:60px;
+		}
+		.bespeak-div-left{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin-left:60px;
+		}
+		.bespeak-div-left span{
+			color:#888;
+			line-height: 1.8em;
+		}
+		.bespeak-div-left img{
+			margin-bottom:26px;
+			padding:18px;
+			border:16px solid #eaeaea;
+		}
+		.bespeak-div-right{
+			color:#9c8364;
+			margin-right:60px;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h3>致力于为中国企业或者个人赴美投资及生活提供全周期服务</h3>
+		<a href="index.html"><a href="index.html"><img class="logo" src="images/index_02.png" /></a></a>
+		<ul class="tel">
+			<li>中国热线：(+86) 010-58116019</li>
+			<li>美国热线：(+1) 828 - 4904420</li>
+		</ul>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="about-panorama.html">关于磐远</a></li>
+			<li><a class="nav-mr" href="project.html">磐远项目</a></li>
+			<li><a class="nav-ml" href="service.html">磐远服务</a></li>
+			<li><a href="club.html">会员CLUB</a></li>
+		</ul>
+	</nav>
+	<section class="club-banner">
+
+	</section>
+	<div class="club-div">
+		<h2>磐远CLUB</h2>
+		<em>为磐远会员量身打造的私享交流平台</em>
+
+		<fieldset>   	
+		<legend align="center">磐远CLUB服务</legend>
+		<ul class="club-list">
+			<li class="club-list-1">税务讲座</li>
+			<li class="club-list-2">留学讲座</li>
+			<li class="club-list-3">赴美定居</li>
+			<li class="club-list-4">赴美投资</li>
+			<li class="club-list-5">移民咨询</li>
+			<li class="club-list-6">赴美考察</li>
+		</ul>
+		<section class="club-button">
+			<!-- <a href="#">在线咨询</a> -->
+			<a class="bespeak-bt" href="#">立即预约</a>
+		</section>
+		</fieldset>
+	</div>
+	<footer>
+		<p>Copyright © 2015 panorama-holdings.com.cn All Rights Reserved 磐远控股有限责任公司 PANORAMA HOLDINGS. LLC</p>
+	</footer>
+	
+	<div class="popbg">
+		<div class="bespeak-pop">
+			<section class="bespeak-close">
+				<span>关闭</span>
+			</section>
+			<div class="bespeak-div">
+			<section class="bespeak-div-left">
+				<img src="images/club-pop_07.png" alt="">
+				<span>
+					微信扫描上方二维码<br>
+					关注磐远官方公众号
+				</span>
+			</section>
+			<section class="bespeak-div-right">
+				<h4>联系我们</h4>
+				<div class="hr"></div>
+				<strong>中国办公室</strong>
+				<ul>
+					<li>地址：北京市东城区东长安街1号东方广场W1座312室</li>
+					<li>联系电话：（+86）010-58116019</li>
+					<li>电子邮箱：info@panorama-holdings.com</li>
+					<li>官网： www.panorama-holdings.com.cn</li>
+				</ul>
+				<div class="hr"></div>
+				<strong>U.S.Headquarter</strong>
+				<ul>
+					<li>Address：6101 Carnegie Blve.STE 103 Charlotte,NC 28209</li>
+					<li>Phone：(+1)828-4904420</li>
+					<li>Email：info@panorama-holdings.com</li>
+					<li>Web:www.panorama-holdings.com.cn</li>
+				</ul>
+				<div class="hr"></div>
+			</section>	
+			</div>
+		</div>
+		
+	</div>
+<script>
+	$(function($) {
+		$(".bespeak-bt").on("click",function(event){
+			event.preventDefault();
+			$(".popbg").css({"visibility":"visible"});
+			console.log("sdfsfsf");	
+		})
+		$(".bespeak-close").on("click",function(){
+			$(".popbg").css({"visibility":"hidden"});
+		})
+	});
+</script>
+</body>
+</html>
