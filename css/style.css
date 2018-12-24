@@ -567,11 +567,12 @@ ul.ul2 li{
 	flex-direction: column;
 	text-align: right;
 }
-.project-sub2-img div{
+.project-sub2-img a{
 	display: flex;
 	flex-direction: column;
 	text-align: center;
 	margin-bottom:20px;
+	text-decoration: none;
 }
 .project-sub-img span{
 	font-size: 14px;
