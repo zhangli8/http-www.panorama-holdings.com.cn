@@ -6,6 +6,19 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<script>
+function isMobile() {
+    if ((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i)))
+        return true;
+    else
+        return false;
+}
+
+//地址自己修改成你的手机端地址
+if (isMobile() !== false)
+    window.location.href = "index-m.html";
+</script>
+
 	<header>
 		<h3>致力于为中国企业或者个人赴美投资及生活提供全周期服务</h3>
 		<a href="index.html"><img class="logo" src="images/index_02.png" /></a>
