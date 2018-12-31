@@ -1,0 +1,56 @@
+
+*{
+	margin:0;
+	padding:0;
+}
+html{
+	font-size: 7.575757576vw;
+}
+@media screen and (max-width: 320px) {
+    html{}
+}
+@media screen and (min-width: 540px) {
+	html{font-size: 30px;}
+}
+img{
+	width:100%;
+	display: block;
+}
+.main{
+	margin:0 auto;
+	max-width: 540px;
+	min-width: 320px;
+}
+nav ul{
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	justify-content: space-around;
+	font-size: 0.12rem;
+}
+nav li {
+	padding:0.25rem;
+}
+nav ul li a{
+	font-size: 0.25rem;
+	color:#734713;
+	text-decoration: none;
+}
+.fen1{
+	display: flex;
+	flex-direction: row;
+}
+.fen2{
+	padding:0 0.7rem;
+	display: flex;
+	flex-direction: row;
+}
+.mb40{
+	margin-bottom: 0.4rem;
+}
+.mb80{
+	margin-bottom:0.8rem;
+}
+.mb120{
+	margin-bottom: 1.2rem;
+}
