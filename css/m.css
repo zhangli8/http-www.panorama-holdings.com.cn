@@ -99,3 +99,27 @@ nav ul li a{
 	margin:0 0.1rem;
 }
 
+/* service-sub-3 */
+.service-sub-3-con{
+	display: flex;
+}
+.service-sub-3-left{
+	display: flex;
+	width:3.67rem;
+	padding-top:0.6rem;
+	flex-direction: column;
+}
+.service-sub-3-left a{
+	padding:0.06rem 0.3rem;
+	margin:0.2rem 0 0 0.3rem;
+	font-size: 0.2rem;
+	text-decoration: none;
+	color:#5d5d5d;
+	border-left:3px solid #fff;
+}
+.service-sub-3-left a.current{
+	border-left:3px solid #b50000;
+}
+.service-sub-3-right{
+	width: 9.53rem;
+}
