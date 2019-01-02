@@ -54,3 +54,48 @@ nav ul li a{
 .mb120{
 	margin-bottom: 1.2rem;
 }
+
+/* project-sub. */
+
+.project-nav{
+	height: 1rem;
+	line-height: 1rem;
+	border-bottom:1px solid #b2b2b2;
+	display: flex;
+	flex-direction: row;
+	background: #f0f0f0;
+}
+.project-nav a{
+	text-align: center;
+	width:3rem;
+	font-size: 0.3rem;
+	text-decoration: none;
+	color:#737373;
+	
+}
+.project-nav a.current{
+	color:#a40000;
+	background: #d1d1d1;
+}
+.project-3column{
+	padding:0 0.5rem;
+	display: flex;
+	flex-direction: row;
+}
+.project-3column a{
+	text-align: center;
+	font-size: 0.3rem;
+	text-decoration: none;
+	color:#fff;
+}
+.project-3column p.current{
+	background: #a40000;
+}
+.project-3column p{
+	background: #000;
+	padding:0.2rem 0;
+}
+.m20{
+	margin:0 0.1rem;
+}
+

@@ -5,8 +5,38 @@
 	<title>磐远中国</title>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="../css/m.css">
+	<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+	<style>
+		.popbg{
+			position: fixed;
+			top:0;
+			left:0;
+			background: rgba(0,0,0,0.65);
+			width:100%;
+			height:100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			visibility: hidden;
+		}
+		.bespeak-pop{
+			width:11.5rem;
+		}
+	</style>
 </head>
 <body>
+<div class="popbg">
+	<div class="bespeak-pop">
+		<section class="bespeak-close">
+			<img src="../images/m/club/club-sub_03.png" alt="">
+		</section>
+
+		<img src="../images/m/club/club-sub_05.png" alt="">
+		<img src="../images/m/club/club-sub_06.png" alt="">
+
+	</div>
+	
+</div>
 <div class="main">
 	<img src="../images/m/index-m_01.jpg" alt="">
 	
@@ -21,9 +51,21 @@
 	<img src="../images/m/club/club_02.jpg" alt="">
 	<img src="../images/m/club/club_03.png" alt="">
 	<img src="../images/m/club/club_04.png" alt="">
-	<a href=""><img src="../images/m/club/club_05.png" alt=""></a>
+	<a class="bespeak-bt" href=""><img src="../images/m/club/club_05.png" alt=""></a>
 	<div class="mb120"></div>
 	<img src="../images/m/about/about_09.png" alt="">
 </div>
 </body>
 </html>
+<script>
+	$(function($) {
+		$(".bespeak-bt").on("click",function(event){
+			event.preventDefault();
+			$(".popbg").css({"visibility":"visible"});
+			console.log("show");	
+		})
+		$(".bespeak-close").on("click",function(){
+			$(".popbg").css({"visibility":"hidden"});
+		})
+	});
+</script>
