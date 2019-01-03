@@ -52,7 +52,6 @@ function tre($_id,$_num){
 	<title>磐远中国</title>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="../css/m.css">
-	<link rel="stylesheet" href="css/mstyle.css">
 	<link rel="stylesheet" href="css/mcss.css">
 </head>
 <body>

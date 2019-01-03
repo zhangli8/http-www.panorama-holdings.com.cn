@@ -33,7 +33,7 @@ a{
 	float:left;
 }
 .news strong{
-	font-size: 0.3rem;
+	font-size: 0.38rem;
 }
 ul.page{
 	font-size: 0.16rem;
@@ -175,12 +175,12 @@ a.box1-join-bt:hover{
 	color:#0953ae;
 }
 .read_more{
-	width:3rem;
+	width:2.8rem;
 	text-align: center;
 	display: block;
 	background: #eee;
-	padding:5px 10px;
-	margin:20px 0;
+	padding:0.06rem 0.1rem;
+	margin:0.3rem 0;
 	border-radius: 4px;
 }
 .news-time{

@@ -26,34 +26,34 @@ global $_system;
 	<meta charset="UTF-8">
 	<title>磐远中国</title>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<link rel="stylesheet" href="../css/m.css">
-	<link rel="stylesheet" href="css/mstyle.css">
-	<link rel="stylesheet" href="css/mcss.css">
+	<link rel="stylesheet" href="http://panorama-holdings.com.cn/css/m.css">
+	<link rel="stylesheet" href="http://panorama-holdings.com.cn/m/css/mcss.css">
+	<base href="http://www.na-ccc.org" />
 </head>
 <body>
 <div class="main">
-	<a href="../index-m.html"><img src="../images/m/index-m_01.jpg" alt=""></a>
+	<a href="http://panorama-holdings.com.cn/m/index-m.html"><img src="http://panorama-holdings.com.cn/images/m/index-m_01.jpg" alt=""></a>
 	
 	<nav>
 		<ul>
-			<li><a href="../m/about.html">关于磐远</a></li>
-			<li><a href="../m/project.html">磐远项目</a></li>
-			<li><a href="../m/service.html">磐远服务</a></li>
-			<li><a href="../m/club.html">会员CLUB</a></li>
+			<li><a href="http://panorama-holdings.com.cn/m/about.html">关于磐远</a></li>
+			<li><a href="http://panorama-holdings.com.cn/m/project.html">磐远项目</a></li>
+			<li><a href="http://panorama-holdings.com.cn/m/service.html">磐远服务</a></li>
+			<li><a href="http://panorama-holdings.com.cn/m/club.html">会员CLUB</a></li>
 		</ul>
 	</nav>
-	<img src="../images/m/service/service-sub-1_02.jpg" alt="">
+	<img src="http://panorama-holdings.com.cn/images/m/service/service-sub-1_02.jpg" alt="">
 	<div class="project-nav">
-		<a href="service.html">磐远服务</a>
-		<a href="service-sub-1.html">了解美国</a>
-		<a href="service-sub-2.html">移民美国</a>	
-		<a class="current" href="service-sub-3.html">立足美国</a>		
+		<a href="http://panorama-holdings.com.cn/m/service.html">磐远服务</a>
+		<a href="http://panorama-holdings.com.cn/m/service-sub-1.html">了解美国</a>
+		<a href="http://panorama-holdings.com.cn/m/service-sub-2.html">移民美国</a>	
+		<a class="current" href="http://panorama-holdings.com.cn/m/service-sub-3.html">立足美国</a>		
 	</div>
 	
 	<div class="service-sub-3-con">
 		<section class="service-sub-3-left">
-			<a href="service-sub-3.html">生活在美国</a>
-			<a class="current" href="service-sub-3-2.php?id=1">经商在美国</a>
+			<a href="http://panorama-holdings.com.cn/m/service-sub-3.html">生活在美国</a>
+			<a class="current" href="http://panorama-holdings.com.cn/m/service-sub-3-2.php?id=1">经商在美国</a>
 		</section>
 		<section class="service-sub-3-right">
 			<?php 
@@ -82,7 +82,7 @@ global $_system;
 		</section>
 	</div>
 	
-	<img src="../images/m/about/about_09.png" alt="">
+	<img src="http://panorama-holdings.com.cn/images/m/about/about_09.png" alt="">
 </div>
 </body>
 </html>
