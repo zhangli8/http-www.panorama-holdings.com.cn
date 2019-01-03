@@ -5,6 +5,7 @@
 	<title>磐远中国</title>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="../css/m.css">
+	<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
 </head>
 <body>
 <div class="main">
@@ -39,13 +40,48 @@
 			<p>上城·普莱斯利</p>
 		</a>
 	</div>
+	
 	<div class="projcet-3column-con">
-		<img src="../images/m/project/project-sub-1_13.png" alt="">
+		<h3>南沿-上城水榭公寓项目</h3>
+		<img src="../images/m/project/ny_14.jpg" alt="">
+		<img src="../images/m/project/ny_15.jpg" alt="">
+		<img src="../images/m/project/ny_16.jpg" alt="">
+	</div>
+	<div class="projcet-3column-con">
+		<h3>马修斯-上城水榭公寓项目</h3>
 		<img src="../images/m/project/project-sub-1_14.jpg" alt="">
 		<img src="../images/m/project/project-sub-1_15.jpg" alt="">
 		<img src="../images/m/project/project-sub-1_16.jpg" alt="">
+	</div>
+	<div class="projcet-3column-con">
+		<h3>上城-普莱斯利公寓项目</h3>
+		<img src="../images/m/project/plsl_14.jpg" alt="">
+		<img src="../images/m/project/plsl_15.jpg" alt="">
+		<img src="../images/m/project/plsl_16.jpg" alt="">
 	</div>
 	<img src="../images/m/about/about_09.png" alt="">
 </div>
 </body>
 </html>
+<script>
+$(function($){
+	var dom = $(".projcet-3column-con");
+	var bt = $(".project-3column p");
+
+	//console.log(bt.length);
+	dom.hide();
+	dom.eq(0).show();
+
+	$(".project-3column a").on("click",function(){
+		dom.hide();
+		event.preventDefault();
+		var n = $(this).index();
+		bt.removeClass("current");
+		bt.eq(n).addClass("current");
+		dom.eq(n).show();
+	})
+})
+</script>
+
+
+

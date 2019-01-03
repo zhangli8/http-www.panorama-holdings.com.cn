@@ -123,3 +123,11 @@ nav ul li a{
 .service-sub-3-right{
 	width: 9.53rem;
 }
+
+/* projcet  */
+
+.projcet-3column-con h3{
+	text-align:center;
+	font-size: 0.36rem;
+	padding:0.8rem 0;
+}
