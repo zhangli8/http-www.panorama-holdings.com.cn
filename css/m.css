@@ -4,6 +4,7 @@
 	padding:0;
 }
 html{
+	font-family:"Microsoft YaHei","SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 	font-size: 7.575757576vw;
 }
 @media screen and (max-width: 320px) {
